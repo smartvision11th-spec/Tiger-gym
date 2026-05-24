@@ -340,6 +340,20 @@ ul {
   object-fit: cover;
 }
 
+.gallery-img {
+  border-radius: 18px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  height: 280px;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+.gallery-img:hover {
+  transform: scale(1.04);
+  box-shadow: 0 20px 40px rgba(255,0,0,0.25);
+}
 .gallery-img:hover {
   transform: scale(1.04);
 }
